@@ -1,0 +1,13 @@
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(4px);
+  }
+}
+
+.right-arrow {
+  animation: move 1s infinite;
+}

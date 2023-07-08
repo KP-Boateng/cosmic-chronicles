@@ -1,0 +1,31 @@
+@keyframes blink {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #f2470d;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.blink {
+  animation: blink 1.5s infinite;
+}
+
+@keyframes arrow-move {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(-3px);
+  }
+}
+
+.arrow {
+  animation: arrow-move 1.5s infinite;
+}
